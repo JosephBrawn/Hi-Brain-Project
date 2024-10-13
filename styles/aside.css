@@ -1,0 +1,89 @@
+.aside{
+    position: relative;  
+    max-width: 262px;
+    height: 920px;    
+}
+.aside-head{
+    display: flex;
+    width: 262px;
+    height: 88px;
+    padding: 24px;   
+    border-bottom:1px solid rgba(42, 47, 55, 0.1)
+}
+.user-avatar{    
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+    background-color: rgba(42, 47, 55, 0.08);
+}
+.first-symbol-name{
+    width: 40px;
+    height: 32px;
+    font-family: "Roboto Slab";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;   
+    opacity: 40%;
+}
+.user-name{
+    width: 80px;
+    height: 24px;  
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color:var(--text-color);
+}
+.personal-account{
+    width: 94px;
+    height: 16px;
+    opacity:60%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;  
+    color: var(--text-color);      
+}
+.btn-announcement{   
+    margin-top:16px;   
+    padding: 8px 54px; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 262px;
+    height: 40px;
+    color: var(--text-color);
+    background-image: url(../img/aside/book.svg);
+    background-repeat: no-repeat;   
+    background-position:left 24px center;   
+}
+.btn-announcement:hover {
+    border-left: 2px solid var(--color-blue);
+    color: var(--color-blue);
+    background-image: url(../img/aside/bookhover.svg);      
+}
+.btn-exit{
+    position:absolute;
+    left: 0px;
+    top: 856px;
+    padding: 8px 54px; 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 262px;
+    height: 40px;
+    color: var(--text-color);
+    background-image: url(../img/aside/exit.svg);
+    background-repeat: no-repeat;   
+    background-position:left 24px center;
+}
+.btn-exit:hover {
+    border-left: 2px solid var(--color-blue);
+    color: var(--color-blue);
+    background-image: url(../img/aside/exithover.svg);  
+}        
+ 
+   

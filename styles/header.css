@@ -1,0 +1,45 @@
+.btn-login {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 32px;
+    color: var(--color-gray);
+    background: url(../img/header/loginman.svg) no-repeat left center;
+}
+.search {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--icon-color);
+    border-radius: 50%;
+}
+.search::after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 9px;
+    width: 7px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: var(--icon-color);
+    transform: rotate(45deg);
+}
+.header {
+    height: 70px;    
+    padding: 16px;
+}
+.header-wrapper{
+    margin: 0 auto;
+    width: 1170px;
+    height: 40px;
+}
+.header-btns{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 24px;
+    align-items: center;
+}
+
+
+
