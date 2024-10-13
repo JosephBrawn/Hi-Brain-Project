@@ -65,6 +65,7 @@
     background-image: url(../img/aside/bookhover.svg);      
 }
 .btn-exit{
+    transition: all 0.3s ease-in-out;
     position:absolute;
     left: 0px;
     top: 856px;
