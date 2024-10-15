@@ -51,11 +51,15 @@ ul{
     --color-blue: #1E3DAF;
     --color-gray: #2A2F37;
     --text-color: rgba(42, 47, 55, 1);
+    --text-color-opacity8: #2A2F3714;
+
     --icon-color:  #b4b6b8;
     --border-color: rgba(42, 47, 55, 0.12);
     --field-color: rgba(42, 47, 55, 0.02);
     --search-item-color: #d3d3d3;
-    --body-bg-color: rgba(245, 245, 245, 1);}
+    --body-bg-color: rgba(245, 245, 245, 1);
+    --footer-border: #52575D;
+}
 .bg-color-white{
     background-color: var(--color-white);
 }
